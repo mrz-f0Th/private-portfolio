@@ -1,0 +1,25 @@
+{
+    "name": "teamfolio",
+    "version": "1.0.0",
+    "description": "portfolio team",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "build:css": "tailwind build ./src/tailwind.css -o ./public/css/styles.css"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/Hendridev/private-portfolio.git"
+    },
+    "author": "hagetsu",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/Hendridev/private-portfolio/issues"
+    },
+    "homepage": "https://github.com/Hendridev/private-portfolio#readme",
+    "devDependencies": {
+        "autoprefixer": "^10.2.5",
+        "postcss": "^8.3.0",
+        "tailwindcss": "^2.1.2"
+    }
+}
